@@ -24,7 +24,6 @@ ESP8266 wifi(&EspSerial);
 LiquidCrystal_I2C lcd(0x3F, 16, 2);
 
 float temperature = 25;
-float temp;
  
 void setup()
 {  
